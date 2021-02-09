@@ -40,10 +40,10 @@ function parseJson(val: string): any {
 
     log.error(
       `Unable to parse JSON value: ${val}\n` +
-        `JSON should look like {"someString": "someValue", "someBoolean": true, "someArray": [1,2,3]}.\n` +
-        ` - Only double quotes are allowed, single quotes are not.\n` +
-        ` - Learn how your shell behaves and escapes characters.${windowsShellHint}\n` +
-        ` - If unsure, validate your JSON using an online service.`,
+      `JSON should look like {"someString": "someValue", "someBoolean": true, "someArray": [1,2,3]}.\n` +
+      ` - Only double quotes are allowed, single quotes are not.\n` +
+      ` - Learn how your shell behaves and escapes characters.${windowsShellHint}\n` +
+      ` - If unsure, validate your JSON using an online service.`,
     );
     throw err;
   }
@@ -101,7 +101,7 @@ if (require.main === module) {
       positionalOptions.targetUrl = url;
       positionalOptions.out = outputDirectory;
     })
-    .option('-n, --name <value>', 'app name')
+    .option('-n, --name <value>', 'application name')
     .option('-p, --platform <value>', "'mac', 'mas', 'linux' or 'windows'")
     .option('-a, --arch <value>', "'ia32' or 'x64' or 'arm' or 'arm64'")
     .option(

@@ -1,3 +1,18 @@
+# Build
+
+```
+npm run dev-up
+npm run build
+
+Execute as follows:
+
+<path>/nativefier/lib/cli.js
+
+```
+
+Basiclly the lib contains all the runtime files for nativefier
+
+
 # Nativefier
 
 👋 dear users / contributors! Public service announcement!
@@ -97,7 +112,7 @@ docker run --rm -v ~/my-icons-folder/:/src -v $TARGET-PATH:/target nativefier/na
 Help welcome on [bugs](https://github.com/nativefier/nativefier/issues?q=is%3Aopen+is%3Aissue+label%3Abug) and
 [feature requests](https://github.com/nativefier/nativefier/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request).
 
-[Developer / build docs](docs/development.md), [API documentation](docs/api.md), 
+[Developer / build docs](docs/development.md), [API documentation](docs/api.md),
 [Changelog](CHANGELOG.md).
 
 ## License

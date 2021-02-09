@@ -218,17 +218,17 @@ export function createMenu({
     role: 'help',
     submenu: [
       {
-        label: `Built with Nativefier v${nativefierVersion}`,
+        label: `Blog`,
         click: () => {
           // eslint-disable-next-line @typescript-eslint/no-floating-promises
-          shell.openExternal('https://github.com/nativefier/nativefier');
+          shell.openExternal('https://blog.ibodigital.com');
         },
       },
       {
-        label: 'Report an Issue',
+        label: 'Contact Support',
         click: () => {
           // eslint-disable-next-line @typescript-eslint/no-floating-promises
-          shell.openExternal('https://github.com/nativefier/nativefier/issues');
+          shell.openExternal('https://support.ibodigital.com');
         },
       },
     ],

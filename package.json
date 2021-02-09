@@ -59,7 +59,7 @@
     "gitcloud": "0.x",
     "hasbin": "1.x",
     "loglevel": "1.x",
-    "ncp": "2.x",
+    "ncp": "^2.0.0",
     "page-icon": "0.x",
     "sanitize-filename": "1.x",
     "shelljs": "0.x",
